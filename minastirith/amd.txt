@@ -62,3 +62,37 @@
  */
 "platform_index" : 1,
 
+// 03/31/2018
+// 4 GPU's
+"gpu_threads_conf" : [
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  // 310 h/s 2x
+  { "index" : 0, "intensity" : 800, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 0, "intensity" : 800, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  // 390 h/s 2x
+  { "index" : 1, "intensity" : 864, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 1, "intensity" : 864, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  // 390 h/s 2x
+  { "index" : 2, "intensity" : 864, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 2, "intensity" : 864, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+
+  // gpu: gfx901 memory:3920
+  // compute units: 64
+  // 980 h/s
+  // 880 h/s
+  { "index" : 3, "intensity" : 2016, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 3, "intensity" : 1800, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+
+],
+
+/*
+ * Platform index. This will be 0 unless you have different OpenCL platform - eg. AMD and Intel.
+ */
+"platform_index" : 1,

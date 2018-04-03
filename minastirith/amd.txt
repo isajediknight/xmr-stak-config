@@ -96,3 +96,38 @@
  * Platform index. This will be 0 unless you have different OpenCL platform - eg. AMD and Intel.
  */
 "platform_index" : 1,
+
+// 04/02/2018
+// 5 GPU's
+"gpu_threads_conf" : [
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  { "index" : 0, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 0, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  { "index" : 1, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 1, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  { "index" : 2, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 2, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  { "index" : 3, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 3, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+
+  // gpu: gfx901 memory:3920
+  // compute units: 64
+  { "index" : 4, "intensity" : 2016, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 4, "intensity" : 1800, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2, "comp_mode" : true},
+
+],
+
+/*
+ * Platform index. This will be 0 unless you have different OpenCL platform - eg. AMD and Intel.
+ */
+"platform_index" : 1,

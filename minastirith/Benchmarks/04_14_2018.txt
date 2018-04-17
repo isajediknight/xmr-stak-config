@@ -1,0 +1,61 @@
+https://www.thegeekpub.com/11720/overclocking-amd-rx-580-mining/
+
+https://www.amdxmrminer.com/reach-stable-2000-hs-mining-xmr-on-vegas/
+
+AtiFlash.exe -f -p 0 path-to-new-vbios.rom
+
+AtiFlash.exe -f -p 0 RX580_INDEX_2_MODDED.rom
+AtiFlash.exe -f -p 1 RX580_INDEX_2_MODDED.rom
+AtiFlash.exe -f -p 3 RX580_INDEX_2_MODDED.rom
+AtiFlash.exe -f -p 4 RX580_INDEX_2_MODDED.rom
+
+AtiFlash.exe -f -p 0 RX580_INDEX_3_ORIGINAL.rom
+AtiFlash.exe -f -p 1 RX580_INDEX_3_ORIGINAL.rom
+AtiFlash.exe -f -p 2 RX580_INDEX_3_ORIGINAL.rom
+AtiFlash.exe -f -p 3 RX580_INDEX_3_ORIGINAL.rom
+AtiFlash.exe -f -p 4 RX580_INDEX_3_ORIGINAL.rom
+
+index 0
+  RX580_INDEX_0_ORIGINAL.rom
+  638 h/s
+  102 watts
+  6.25 hash / watt
+
+index 1
+  RX580_INDEX_1_ORIGINAL.rom
+  638 h/s
+  112 watts
+  5.70 hash / watt
+
+index 2
+  RX580_INDEX_2_ORIGINAL.rom
+  758 h/s
+  82 watts
+  9.24 hash / watt
+
+index 3
+  RX580_INDEX_3_ORIGINAL.rom
+  794 h/s
+  87 watts
+  9.12 hash / watt
+
+index 4
+  RX580_INDEX_4_ORIGINAL.rom
+  792 h/s
+  92 watts
+  8.60 hash / watt
+
+----------------
+  // lose 10 h/s 5-10 watts less
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  { "index" : 0, "intensity" : 896, "worksize" : 16, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 0, "intensity" : 896, "worksize" : 16, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 2, "comp_mode" : true},
+
+],
+
+  //current winner
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  { "index" : 0, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 0, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 2, "comp_mode" : true},

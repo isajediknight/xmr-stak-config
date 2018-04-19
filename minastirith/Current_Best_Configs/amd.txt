@@ -1,0 +1,5 @@
+  // gpu: Ellesmere memory:2752
+  // compute units: 36
+  // 794 hashes / sec @ 87 watts
+  { "index" : 0, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 2, "comp_mode" : true},
+  { "index" : 0, "intensity" : 896, "worksize" : 8, "affine_to_cpu" : false, "strided_index" : 2, "mem_chunk" : 2, "comp_mode" : true},
